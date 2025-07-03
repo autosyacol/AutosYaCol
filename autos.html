@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> autos.html</title>
+	<style type="text/css">
+	#galería1 {
+    margin: auto;
+    height: 110px;
+    width: 620px;
+    border: 1px solid #0F0051;
+}
+    #Contenedor {
+    height: 1000px;
+    width: 2020px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    border: 1px solid #15009E;
+}
+    #Carro1 {
+    height: 1000px;
+    width: 2020px;
+    position: absolute;
+    visibility: hidden;
+    border: 1px solid #0A0068;
+}
+    #Carro2 {
+   height: 1000px;
+    width: 2020px;
+    border: 1px solid #1B0056;
+    position: absolute;
+    visibility: hidden;
+}
+    #Carro3 {
+   height: 1000px;
+    width: 2020px;
+    border: 1px solid #00257C;
+    position: absolute;
+    visibility: hidden;
+}
+    #Carro4 {
+   height: 1000px;
+    width: 2020px;
+    border: 1px solid #001156;
+    position: absolute;
+    visibility: hidden;
+}
+    #Carro5 {
+    height: 1000px;
+    width: 2020px;
+    border: 1px solid #140096;
+    position: absolute;
+    visibility: hidden;
+}
+    </style>
+
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+    </script>
+
+<body>
+<div id="galería1">
+	<img src="Carro1.JPG" alt="" width="120" height="100" onMouseOver="MM_showHideLayers('Carro1','','show')" onMouseOut="MM_showHideLayers('Carro1','','hide')"/>
+	<img src="Carro2.JPG" alt="" width="120" height="100" onMouseOver="MM_showHideLayers('Carro2','','show')" onMouseOut="MM_showHideLayers('Carro2','','hide')"/>
+	<img src="Carro6.JPG" alt="" width="120" height="90" onMouseOver="MM_showHideLayers('Carro3','','show')" onMouseOut="MM_showHideLayers('Carro3','','hide')"/>
+	<img src="Carro5.JPG" alt="" width="120" height="100" onMouseOver="MM_showHideLayers('Carro4','','show')" onMouseOut="MM_showHideLayers('Carro4','','hide')"/>
+	<img src="Carro7.JPG" alt="" width="120" height="100" onMouseOver="MM_showHideLayers('Carro5','','show')" onMouseOut="MM_showHideLayers('Carro5','','show')"/>
+	</div>
+<div id="Contenedor">
+  <div id="Carro1"><img src="Carro1.JPG" width="2020" height="1000" alt=""/></div>
+  <div id="Carro2"><img src="Carro2.JPG" width="2020" height="1000" alt=""/></div>
+  <div id="Carro3"><img src="Carro6.JPG" width="2020" height="1000" alt=""/></div>
+  <div id="Carro4"><img src="Carro5.JPG" width="2020" height="1000" alt=""/></div>
+  <div id="Carro5"><img src="Carro7.JPG" width="2020" height="1000" alt=""/></div>
+
+	
+		</div>
+	
+	
+</body>
+</html>
